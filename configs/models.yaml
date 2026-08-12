@@ -1,5 +1,6 @@
 enabled_models:
   - yolo11n
+  - yolo26n
   # - yolo11n_seg
   # - yolo11n_pose
   # - yolo11n_obb

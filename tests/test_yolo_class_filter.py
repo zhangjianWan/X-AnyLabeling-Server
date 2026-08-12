@@ -11,6 +11,7 @@ from app.models.yolo11_obb import YOLO11OBB
 from app.models.yolo11_pose import YOLO11Pose
 from app.models.yolo11_seg import YOLO11Segmentation
 from app.models.yolo11_track import YOLO11DetectionTrack
+from app.models.yolo26n import YOLO26nDetection
 
 
 class FakeYOLO:
@@ -88,6 +89,7 @@ class TestYOLOClassFilter(unittest.TestCase):
             YOLO11Pose,
             YOLO11OBB,
             YOLO11DetectionTrack,
+            YOLO26nDetection,
         )
 
         for model_class in model_classes:
